@@ -14,7 +14,10 @@ const Greeting = () => {
   return (
     <div>
       <div>
-        {message.greeting} in {message.language}
+        {message.greeting}
+        {' '}
+        in
+        {message.language}
       </div>
     </div>
   );
